@@ -1,6 +1,18 @@
+const numberOfFilms = +prompt("How many films do you see?", "");
+const PersonsofMovie = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    private: false
+};
 
-const answers=[];
+const a = prompt('Какой последний фильм ты посмотрел?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Какой последний фильм ты посмотрел?', ''),
+      d = prompt('На сколько оцените его?', '');
 
-answers[0]=prompt("Ты лох?", "");
-answers[1]=prompt("А кто лох?", "");
-document.write(answers);git push -u origin main
+      PersonsofMovie.movies [a] = b;
+      PersonsofMovie.movies [c] = d;
+
+console.log(PersonsofMovie);
